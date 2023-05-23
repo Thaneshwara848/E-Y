@@ -1,0 +1,21 @@
+package com;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// 5 steps :
+		// load the driver 
+		// create the connection 
+		// create the statement 
+		// execute the query 
+		// close the connection
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+
+	}
+
+}

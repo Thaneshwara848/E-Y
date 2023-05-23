@@ -1,0 +1,32 @@
+package setdemo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Set;
+import java.util.Vector;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		
+//		ArrayList al = new ArrayList<>();
+//		LinkedList al = new LinkedList<>();
+		//Vector al = new Vector<>();
+//		Set s = new Set();// bcz its a n interfac
+		al.add(111);
+		al.add(245);
+		al.add(200);
+		al.add(200);
+		al.add(242);
+		al.add(534);
+		al.add(534);
+		
+		Iterator i =al.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align: center;">
+	<h1> Please Register</h1>
+	<h3>
+		
+	ID 	: <input type="text"><br>
+	NAME :<input type="text"><br>
+	AGE  :<input type="text"><br>
+	SALARY :<input type="text"><br> 
+	DESIIG :<input type="text"><br>
+	
+	</h3>
+</div>
+
+</body>
+</html>

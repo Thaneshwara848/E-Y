@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<div style="text-align: center;">
+
+	<form action="Login" method="get">	
+	<h1> PLEASE LOGIN ...!</h1>
+		USER ID :<input type="text" name="uname"><br>
+		USER NAME :<input type="text" name="upass"><br>
+	
+		<input type="submit" value="LOGIN">	
+	</form>
+
+</div>
+
+</body>
+</html>

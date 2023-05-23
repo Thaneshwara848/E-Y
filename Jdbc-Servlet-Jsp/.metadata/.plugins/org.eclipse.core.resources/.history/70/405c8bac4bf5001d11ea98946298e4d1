@@ -1,0 +1,20 @@
+package abc;
+
+import java.util.ArrayList;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		ArrayList<String> al = new ArrayList<String>();
+		al.add(100);
+		al.add(400);
+		al.add(500);
+		al.add("Thanesh");
+		
+		System.out.println(al);
+		
+	}
+
+}
+
+// generics 

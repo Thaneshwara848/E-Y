@@ -1,0 +1,18 @@
+package listdemo;
+import java.util.*;
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		//List l = new List();// its is interface 
+		ArrayList al= new ArrayList();
+		al.add(100);
+		al.add(350);
+		al.add(500);
+		al.add("ABC");
+		al.add('A');
+		
+		
+	}
+
+}

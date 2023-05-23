@@ -1,0 +1,25 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// 5 steps :
+		// load the driver 
+		// create the connection 
+		// create the statement 
+		// execute the query 
+		// close the connection
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con= DriverManager.getConnection("url","root","root");
+		} catch (Exception e) {
+			
+		}
+		
+
+	}
+
+}

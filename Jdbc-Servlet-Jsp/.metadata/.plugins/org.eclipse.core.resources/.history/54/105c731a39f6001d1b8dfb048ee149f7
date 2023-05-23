@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align: center;">
+	<h1> Please Register</h1>
+	
+	<form action="Register">
+	
+		ID 	: <input type="text" name="uid"><br>
+		NAME :<input type="text" name="uname"><br>
+		AGE  :<input type="text" name="uage"><br>
+		SALARY :<input type="text" name="usalary"><br> 
+		DESIIG :<input type="text" name="udesig"><br>
+	
+	</form>
+	<br>
+	
+	<input type="submit" value="REGISTER">
+
+</div>
+
+</body>
+</html>

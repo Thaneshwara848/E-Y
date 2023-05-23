@@ -1,0 +1,10 @@
+package com;
+
+public class CollDemo1 {
+	
+	public static void main(String[] args) {
+		//  drawback of array 1)Listmo 2 ) siz is fixed 
+		ArrayList al = new ArrayList();
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com;
+
+public class Project {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to JDBC Programming...!");
+		do {
+				System.out.println("1 ) INSERT ");
+				System.out.println("2 ) Display");
+				System.out.println("3 ) Update");
+		}while();
+
+	}
+
+}
