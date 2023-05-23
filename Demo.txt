@@ -456,15 +456,47 @@ Muilty Threading....!
 
 
 
+Array 
+
+Collections :
+JDBC
+
+
+WebApplication 
+		Servlet 
+		JSP 
+				MYSQL : installed ? 
+
+			
+
+
+Servlet : server is server side coding lnag which is used to creater a web appliction 
+
+	httpServlet Request
+	httpServletResposne 
+
+
+	doGet 			DoPost
+	RequestDisplatcher.....!
 
 
 
-
-
+	lifycylce 
+	Filter
+	Session management :	
+					cookis 	
+					Session  
+	
 
 
 
 				
+
+
+
+
+
+
 
 
 
