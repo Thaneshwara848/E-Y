@@ -1,0 +1,38 @@
+html 
+html with testing 
+heading tags 
+hr , br , p
+tables :
+    tr
+    td 
+    th
+    rowspan 
+    colspan
+    cellpadding 
+    cellspacing
+list tags :
+    ol :A ,a, I i,1
+    ul : sqare ,, circle , disc 
+forms:
+    text, password, email ,  date , number , submit , reset , color ,  
+    radio , checkbox , textare , file , 
+img : 
+    img ,audio , vedio
+Emojis : 
+        
+
+3 tyes of css 
+    inline : h1 style 
+    internal / embaded = <style>
+    externale :<link>
+
+types of selectors 
+
+    tags
+    id
+    class 
+    multipl tag 
+    universal selectors
+    
+     
+
