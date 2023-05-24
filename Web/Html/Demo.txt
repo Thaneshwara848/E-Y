@@ -36,3 +36,85 @@ types of selectors
     
      
 
+
+            JAVA                JavaScrit.... ?
+
+
+            Prog lang           Scripting 
+
+            Comiple             no compiler 
+                run                 run 
+            
+                                    Fast
+            
+            very strict lang        not much 
+
+            Server                  Client + server = more popular 
+            
+
+            java Script  
+
+            basics : 
+                    operatorss : : 
+                            arethemntic operatior 
+                            condiational operators 
+                            logical operatior 
+
+                    looping  : for , while , do while 
+                    jumping  : continue , return, break
+                    Statment : if, else , switch 
+
+Events : 
+            onclick
+            ondblclick
+            onmouseover
+            onmoseout
+            onfocus 
+            onblur
+            ondrag
+            onchange
+            onselect 
+
+
+    BOM :Browser Object model 
+
+            Alert 
+            confirm 
+            prompt 
+
+    DOM : Documnet objecty model : 
+            document.getElementById()
+                                byName
+                                byTageName
+                                byClassName
+
+    Validation : 
+                Name : 
+                        min length = 3 
+                        max length = 10 
+
+                        null , 
+                        alphebatical 
+
+                        no speacl char 
+
+        
+
+
+Core java 
+jdbc
+servlet
+jsp 
+html 
+css
+javascript
+Angualr.....!
+
+
+
+    tsc --version
+    node--version
+    ng version 
+
+
+

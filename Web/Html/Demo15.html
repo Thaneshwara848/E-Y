@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function abc(){
+            fn=document.getElementById('fn').value;
+            ln=document.getElementById('ln').value;
+            document.getElementById('fname').value;
+
+            fullname= fn +"  "+ln ;
+            document.getElementById('fname').value=fullname;
+            //alert("My Full name is : "+ fullname )
+        }
+        function xyz(){
+            document.getElementById('fn').style.backgroundColor='lightblue';
+        }
+        function atoz(){
+            document.getElementById('fn').style.backgroundColor='pink';
+        }
+        function changebgcolor(value){
+            document.getElementById('pagebody').style.backgroundColor=value;
+        }
+        
+    </script>
+</head>
+<body id="pagebody"> 
+        <div style="text-align: center;">
+            <marquee onmouseover="stop()" onmouseout="start()"><h1> Welcome to  JavaScript </h1></marquee>
+            <form action="">
+                    First name :<input type="text" id="fn" onfocus="xyz()" onblur="atoz()"><br>
+                    Last  Name :<input type="text" id="ln"><br>
+                    Full name : <input type="text" id="fname" onfocus="abc()"><br>
+                    <input type="button" value="Single" onclick="abc()">
+                    <input type="button" value="Double" ondblclick="abc()">
+            </form>
+            COLOR :
+            <select onchange="changebgcolor(value)">
+                <option>color</option>
+                <option value="red">RED</option>
+                <option value="blue">BLUE</option>
+                <option value="yellow">YELLOW</option>
+                <option value="pink">PINK</option>
+            </select>
+            <img src="ey2.jpg" ondrag="alert('dont drag...!')">
+            
+        </div>
+</body>
+</html>
+               

@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validname(){
+            uname=document.getElementById('uname').value;
+            if(uname.length==null || uname.length==0 || uname.length==undefined){
+               // alert("Name shoubt not be null ")
+               document.getElementById('msg').innerHTML="<p style='color:red'>Name shoubt not be null</p><br>";
+            }
+            else if(uname.length < 3 && uname.length>0){
+                //alert("Name shoubt not be less the 3 char ")
+                document.getElementById('msg').innerHTML="<p style='color:red'>Name shoubt not be less the 3 char <br>";
+            }
+            else if(uname.length >= 10){
+                document.getElementById('msg').innerHTML="<p style='color:red'>Name shoubt not be greater  then 10 <br> ";
+                //alert("Name shoubt not be greater  then 10 ")
+            }
+            else{
+                document.getElementById('msg').innerHTML="<p style='color:green'>Name is okay <br> ";   
+            }
+        }
+    </script>
+</head>
+<body>
+    Enter Name : <br>
+    <input type="text" id="uname"><br>
+    <span id="msg"></span>
+    <input type="submit" value="CLICK" onclick="validname()">
+</body>
+</html>
