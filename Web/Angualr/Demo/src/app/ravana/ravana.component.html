@@ -1,0 +1,6 @@
+<input type="text" #ravana>
+<input type="submit" value="RAVANA" (click)=" sendmsg(ravana.value)">
+
+<p *ngFor="let msg of msgs">
+    {{msg}}
+</p>

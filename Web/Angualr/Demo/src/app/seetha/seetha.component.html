@@ -1,0 +1,5 @@
+<input type="text" #rama>
+<input type="submit" value="SEETHA" (click)="sendmsg(rama.value)">
+<p *ngFor="let msg of msgs">
+    {{msg}}
+</p>

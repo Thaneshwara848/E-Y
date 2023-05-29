@@ -10,6 +10,9 @@ import { BindingComponent } from './binding/binding.component';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 import { PipecompComponent } from './pipecomp/pipecomp.component';
 import { FormsComponent } from './forms/forms.component';
+import { ErrorcompComponent } from './errorcomp/errorcomp.component';
+import { ServicedemoComponent } from './servicedemo/servicedemo.component';
+import { CharappComponent } from './charapp/charapp.component';
 
 const routes: Routes = [
 
@@ -48,6 +51,18 @@ const routes: Routes = [
   {
     path:'form',
     component:FormsComponent
+  },
+  {
+    path:"serv",
+    component:ServicedemoComponent
+  },
+  {
+    path:'chat',
+    component:CharappComponent
+  },
+  {
+    path:'**',
+    component:ErrorcompComponent
   }
 
 ];
