@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./templetdriven.component.css']
 })
 export class TempletdrivenComponent {
-  userdate(userForm:any){
-    
-    console.log(userForm);
-}
+  
+  userdata(userform:any){
+    console.log(userform)
+  }
 }
