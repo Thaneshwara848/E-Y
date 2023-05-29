@@ -6,6 +6,10 @@ import { LoginComponent } from './login/login.component';
 import { GalaryComponent } from './galary/galary.component';
 import { EyComponent } from './ey/ey.component';
 import { DeptComponent } from './dept/dept.component';
+import { BindingComponent } from './binding/binding.component';
+import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
+import { PipecompComponent } from './pipecomp/pipecomp.component';
+import { FormsComponent } from './forms/forms.component';
 
 const routes: Routes = [
 
@@ -29,6 +33,21 @@ const routes: Routes = [
   },
   {
     path:'dept',component:DeptComponent
+  },
+  {
+    path:'bind',
+    component:BindingComponent
+  },
+  {
+    path:'dir',
+    component:DirectivesdemoComponent
+  },
+  {
+    path:'pipe',component:PipecompComponent
+  },
+  {
+    path:'form',
+    component:FormsComponent
   }
 
 ];

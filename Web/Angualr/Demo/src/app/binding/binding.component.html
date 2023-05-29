@@ -1,0 +1,41 @@
+<h1>Binding Component Demo </h1>
+
+<input type="submit" value="CLICK" (click)="abc()">
+<hr>
+
+
+FIRST NAME : <input type="text" name="fn" #firstName> <br>
+Last name : <input type="text" name="ln"#lastName> <br>
+
+<input type="submit" value="CLICK" (click)="myname(firstName.value,lastName.value)">
+<br>
+My Full name is : {{fullname}}
+<hr>
+
+
+My name is : {{name}}
+<input type="text" value={{name}}>
+<hr>
+
+Principle :<input type="text" #p><br>
+ROI  :<input type="text" #roi><br>
+TIME :<input type="text" #t><br>
+Total :{{total}}<br>
+EMI :{{emi}}
+EMI :<input type="text" value={{emi}}><br>
+TOTAL : <input type="text" value={{total}}>
+
+<br>
+
+<input type="submit" value="CACULATE" (click)="cal(p.value,roi.value,t.value)">
+<hr>
+
+<input type="submit" value="CLICK" [disabled]="xyzz">
+
+<!-- 
+{{}} : interpolation
+() event binding 
+[] : property binding....!
+
+
+ -->

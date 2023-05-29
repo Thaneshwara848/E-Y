@@ -1,0 +1,28 @@
+/* .abc{
+    width: 50%;
+    border: 5px solid red;
+    background-color: pink;
+}
+
+.xyz{
+    width: 50%;
+    border: 5px solid red;
+    
+}
+
+.atoz{
+    width: 50%;
+    
+    background-color: pink;
+} */
+
+div{
+    width: 50%;    
+}
+.bdr{
+    border: 5px solid red ;
+}
+
+.bgclr{
+    background-color: pink;
+}

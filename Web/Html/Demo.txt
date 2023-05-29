@@ -118,3 +118,41 @@ Angualr.....!
 
 
 
+
+
+
+				Component 
+				Routing 
+				Data binding : 
+							():event binding
+							[] interpolation
+							[] property binding
+				Directive :
+						Strutural Directive
+									*ngIf, *ngFor
+
+						Attrubute directive 
+									*ngClass
+				Pipe :
+							String pipe 
+							Currency pipe
+							Json
+							Date
+							
+				Validation:
+						templet driven form: 		HTML
+						Reactive Driven From		TS file 
+						
+
+
+				4: 05 
+						20 minuts break 
+				4 : 25 
+
+
+
+
+
+
+
+
